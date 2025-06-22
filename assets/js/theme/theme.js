@@ -21,13 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
     return new bootstrap.Popover(popoverTriggerEl);
   });
   // =================================
-  // Hide preloader
-  // =================================
-  var preloader = document.querySelector(".preloader");
-  if (preloader) {
-    preloader.style.display = "none";
-  }
-  // =================================
   // Increment & Decrement
   // =================================
   var quantityButtons = document.querySelectorAll(".minus, .add");
